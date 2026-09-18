@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>墨花</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #260508;
+    color: #e8e3df;
+    font-family: "Noto Serif KR", "Batang", "Nanum Myeongjo", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: #1b1b1a;
+    padding: 80px 70px;
+    border: 1px solid #403837;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 86px;
+    font-weight: 400;
+    letter-spacing: 18px;
+}
+
+.title p {
+    margin: 20px 0 0;
+    color: #aaa3a0;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.menu {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    border: 1px solid #4a4140;
+    color: #ddd7d3;
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.25s;
+}
+
+.menu a:hover {
+    background: #2b2222;
+    border-color: #766765;
+}
+
+.quote {
+    margin-top: 65px;
+    padding-top: 30px;
+    border-top: 1px solid #403837;
+    text-align: center;
+    color: #817977;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 12px;
+    }
+
+    .container {
+        padding: 55px 25px;
+    }
+
+    .title h1 {
+        font-size: 62px;
+        letter-spacing: 12px;
+    }
+
+    .menu {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="title">
+        <h1>墨花</h1>
+
+        <p>
+            먹으로 그린 꽃.<br>
+            한 번 새겨진 흔적은 쉽게 지워지지 않는다.<br>
+            검은 흔적 위에 피어난 꽃은<br>
+            그 누구도 쉽게 지울 수 없는 이름이 된다.
+        </p>
+    </div>
+
+    <div class="menu">
+        <a href="organization.html">조직 개요</a>
+        <a href="hierarchy.html">내부 계층</a>
+        <a href="outside.html">대외 신분</a>
+        <a href="record.html">기록 및 정보</a>
+    </div>
+
+    <div class="quote">
+        「墨落成花，闇覆其身。」
+    </div>
+
+</div>
+
+</body>
+</html>
